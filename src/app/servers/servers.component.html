@@ -5,6 +5,6 @@
 <app-server></app-server>
 <app-server></app-server>
 
-<div class="alert alert-primary" role="alert">
+<div class="alert alert-primary" role="alert" *ngIf="isServerCreated">
     <div class="lead">{{serverCreationStatus}}</div>
 </div>
