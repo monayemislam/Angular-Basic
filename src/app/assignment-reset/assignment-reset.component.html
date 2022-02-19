@@ -1,0 +1,11 @@
+<hr class="mt-5">
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <input class="form-control" [(ngModel)]="username">
+            <div>{{username}}</div>
+            <button class="btn btn-warning mt-1" [disabled]="username===''" (click)="username=''">Reset</button>
+        </div>
+    </div>
+</div>
